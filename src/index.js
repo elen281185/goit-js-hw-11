@@ -10,7 +10,7 @@ button.addEventListener('click', loadMore);
 let currentPage = 1;
 let searchQuery = '';
 let currentHits = 0;
-const PER_PAGE = 200;
+const PER_PAGE = 40;
 
 function onSubmit(event) {
   event.preventDefault();
